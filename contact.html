@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>VK CONTACT</title>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="tag3">
+    <a href="index.html"> <img class="logo" src="css/images.png" alt=""></a>
+    <br>
+    <br>
+
+    <div class="gym">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="offers.html">OFFERS</a></li>
+        <li><a href="neargym.html">NEAR GYM</a></li>
+        <li><a href="products.html">PRODUCTS</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </div>
+    <div class="flip">
+      <div class="contactus">
+        <p class="vk">VK FITNESS</p>
+        <p class="con">CONTACT US:</p>
+        <br>
+        <p class="email">EMAIL: fitvk@gmail.com</p>
+        <br>
+        <p class="num">M-NUMBER: 4756456365</p>
+        <br>
+        <div class="fbb">
+      <a href="https://www.facebook.com/campaign/landing.php?campaign_id=14884913640&extra_1=s%7Cc%7C550525805697%7Cb%7Cfb%27%27%27%27%7C&placement=&creative=550525805697&keyword=fb%27%27%27%27&partner_id=googlesem&extra_2=campaignid%3D14884913640%26adgroupid%3D128696221592%26matchtype%3Db%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-327681933321%26loc_physical_ms%3D9061919%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAiA85efBhBbEiwAD7oLQNTU_wessul1fA9xMB46cyTAjI_gyRAh7rRj8sLFRPQMVwhVUjTERhoCTl0QAvD_BwE"><img src="css/fb.jpg" class="fb"></a>
+      <a href="https://www.instagram.com/"><img src="css/insta.jpg" class="insta"></a>
+        </div>
+      </div>
+      <div class="contact">
+        <h2> TO JOIN REGISTER HERE !</h2>
+
+          <label>EMAIL:</label>
+          <input type="email" id="mail">
+          <br>
+          <br>
+          <label>TELEPHONE NUMBER:</label>
+          <input type="number" id="num">
+          <br>
+          <br>
+          <label>ADDRESS:</label>
+          <input type="text" id="txt">
+          <br>
+          <br>
+      </div>
+    </div>
+    <button onclick="info_data()">SUBMIT</button>
+    <p id="dis"></p>
+    <script>
+      function info_data()
+      {
+        var a = document.getElementById('mail').value;
+        var b = parseInt(document.getElementById('num').value;)
+        var c = document.getElementById('txt').value;
+        alert(document.getElementById('dis').innerHTML="Your details Saved"+a+b+c;);
+
+      }
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,496 @@
+body{
+  background-image: url(gym7.jpg);
+  background-size:cover;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+img{
+  height: 100px;
+  width: 150px;
+  margin-left: 50px;
+  margin-top: 20px;
+  border-radius: 50px;
+
+}
+.services{
+  margin-left: 20px;
+}
+
+ul li
+{
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Righteous;
+  display: inline;
+  padding: 20px;
+  margin: 30px;
+  color: white;
+  background-color: grey;
+  border-radius: 40px;
+  opacity: 0.9;
+
+/*
+  margin-right: 120px;*/
+
+}
+.gym{
+  /*
+  background: black;
+  */
+  width: 100%;
+  height:30px;
+  margin-bottom: 30px;
+
+}
+h1,h3{
+  font-family:Righteous;
+  display: inline;
+  text-decoration:  line-through;
+  text-decoration-color: black;
+  /*font-style: italic;*/
+
+}
+span{
+  color:pink;
+}
+#gym1{
+  font-family: serif;
+  margin-left: 30%;
+  display: inline-flex;
+  font-size:30px;
+  color: red;
+  opacity: 0.4;
+
+}
+.gym2{
+  color:#FDA4CF;
+  font-size: 50px;
+  margin-top: 10px;
+  padding: 20px;
+}
+.para{
+  font-size: 30px;
+  color: grey pink green;
+  font-weight:bold;
+  text-decoration: none;
+}
+button{
+  font-size: 20px;
+  background: red;
+  height: 55px;
+  width: 150px;
+  color: white;
+  border-color:white;
+  font-family: Righteous;
+  cursor: pointer;
+}
+ul{
+  margin-top: 20px;
+}
+
+/* offers.html*/
+.log1:hover{
+  font-size: 20px;
+}
+.log2:hover{
+  font-size: 20px;
+}
+.log3:hover{
+  font-size: 20px;
+}
+.head1{
+  font-family: Righteous;
+}
+#offer1{
+  border-color: white;
+  height: 150px;
+  width: 40%;
+  border-radius: 30px;
+  text-align: center;
+  margin: 20px;
+  padding-top: 30px;
+  font-family: Righteous;
+}
+#offer2{
+  height: 150px;
+  width: 40%;
+  border-radius: 30px;
+  text-align: center;
+  margin: 20px;
+  padding-top: 30px;
+  font-family:Righteous;
+}
+#offer3{
+  height: 150px;
+  width: 40%;
+  border-radius: 30px;
+  text-align: center;
+  margin: 20px;
+  padding-top: 30px;
+  font-family: Righteous;
+}
+#offer4{
+  height: 150px;
+  width: 40%;
+  border-radius: 30px;
+  text-align: center;
+  margin: 20px;
+  padding-top: 30px;
+  font-family: Righteous;
+}
+#offer5{
+  height: 150px;
+  width: 40%;
+  border-radius: 30px;
+  text-align: center;
+  margin: 20px;
+  padding-top: 30px;
+  font-family: Righteous;
+}
+#offer6{
+  height: 150px;
+  width: 40%;
+  border-radius: 30px;
+  text-align: center;
+  margin: 20px;
+  padding-top: 30px;
+  font-family: Righteous;
+}
+.log1,.log2,.log3{
+  display: flex;
+  color: white;
+}
+.head1{
+  text-align: center;
+  color:white;
+  font-family: sans-serif;
+}
+#offer1:hover{
+  color: black;
+  font-weight: bold;
+  background: red;
+  opacity: 0.8
+}
+#offer2:hover{
+  color: black;
+  font-weight: bold;
+  background: red;
+  opacity: 0.8
+}
+#offer3:hover{
+  color: black;
+  font-weight: bold;
+  background: red;
+  opacity: 0.8
+}
+#offer4:hover{
+  color: black;
+  font-weight: bold;
+  background: red;
+  opacity: 0.8
+}
+#offer5:hover{
+  color: black;
+  font-weight: bold;
+  background: red;
+  opacity: 0.8
+}
+#offer6:hover{
+  color: black;
+  font-weight: bold;
+  background: red;
+  opacity: 0.8
+}
+p{
+  font-size: 30px;
+}
+/*neargym.html*/
+.locations{
+  color: white;
+  font-family: Righteous;
+  margin-left: 90px;
+}
+.near1{
+  display: flex;
+
+}
+#loc1{
+  color: white;
+  padding: 20px;
+  margin: 50px;
+  /*border: 1px solid black;*/
+  border-radius: 50px;
+  text-align: center;
+  font-family: Righteous;
+
+}
+#loc2{
+  color: white;
+  padding: 20px;
+  /*border: 1px solid black;*/
+  border-radius: 50px;
+  margin: 50px;
+  text-align: center;
+  font-family: Righteous;
+}
+.near2{
+  display: flex;
+
+}
+#loc3{
+  color: white;
+  padding: 20px;
+  margin: 50px;
+  /*border: 1px solid black;*/
+  border-radius: 50px;
+  text-align: center;
+  font-family: Righteous;
+}
+#loc4{
+  color: white;
+  padding: 20px;
+  /*border: 1px solid black;*/
+  border-radius: 50px;
+  margin: 50px;
+  text-align: center;
+  font-family: Righteous;
+}
+#loc1:hover{
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  background: red;
+  opacity: 0.8
+}
+#loc2:hover{
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  background: red;
+  opacity: 0.8
+}
+#loc3:hover{
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  background: red;
+  opacity: 0.8
+}
+#loc4:hover{
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  background: red;
+  opacity: 0.8
+}
+/*products.html*/
+.productslist{
+  color: white;
+  font-family: sans-serif;
+  margin-left: 90px;
+}
+#product1{
+  display: flex;
+}
+#product2{
+  display: flex;
+}
+.pro1{
+  color: white;
+  padding: 20px;
+  text-align: center;
+  /*border: 1px solid white;*/
+  border-radius: 30px;
+  margin: 30px;
+}
+.pro2{
+  color: white;
+  padding: 20px;
+  text-align: center;
+  /*border: 1px solid white;*/
+  border-radius: 30px;
+  margin: 30px;
+}
+.pro3{
+  color: white;
+  padding: 20px;
+  text-align: center;
+  /*border: 1px solid white;*/
+  border-radius: 30px;
+  margin: 30px;
+}
+.pro4{
+  color: white;
+  padding: 20px;
+  text-align: center;
+  /*border: 1px solid white;*/
+  border-radius: 30px;
+  margin: 30px;
+}
+.pro1:hover,.pro2:hover,.pro3:hover,.pro4:hover{
+  background: red;
+}
+/*services*/
+#services{
+  color: white;
+  margin-left: 200px;
+  padding: 30px;
+  text-decoration: none;
+}
+.cardio{
+  padding: 20px;
+
+}
+.weight{
+  padding: 20px;
+}
+.aerobics{
+  padding: 20px;
+}
+
+.contact{
+  height: 300px;
+  width: 500px;
+  margin-left:60%;
+  padding: 50px;
+  color: white;
+  font-family: Righteous;
+}
+.fb{
+  height: 50px;
+  width: 50px;
+}
+.insta{
+  height: 50px;
+  width: 50px;
+}
+.submit{
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+}
+span{
+  color: white;
+  text-decoration: none;
+  font-family:Righteous;
+
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color:red;
+  z-index:100;
+  width:50px;
+  height:20px;
+  background:#blue;
+}
+.point{
+  color: white;
+}
+.point:hover{
+  color: grey;
+}
+input{
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 25px;
+  background-color: black;
+  color:white;
+}
+.tag1{
+  background-image: url(pro19.webp);
+  background-size: cover;
+}
+.tag2{
+  background-image: url(pro6.jpg);
+  background-size:cover;
+}
+span:hover{
+  color: black;
+  background: white;
+  text-decoration: underline;
+  border-radius: 10px;
+  font-size: 40px;
+}
+.tag3{
+  background-image: url(pro23.webp);
+  background-size: cover;
+
+}
+.tag4{
+  background-image: url(pro20.avif);
+  background-size: cover;
+}
+.tag5{
+  background-image: url(pro13.webp);
+  background-size: cover;
+}
+.contactus{
+  color: white;
+  /*background: grey;*/
+  width: 40%;
+  height: 150px;
+}
+.flip{
+  display: inline;
+}
+.vk{
+  padding: 20px;
+  margin: 30px;
+  font-family: Righteous;
+}
+.vk:hover{
+  color: red;
+  font-size: 50px;
+  font-family: Righteous;
+
+}
+.email:hover{
+  color: red;
+  font-weight: bold;
+}
+.num:hover{
+  color: red;
+  font-weight: bold
+}
+.email{
+  font-family:Righteous;
+}
+.num{
+  font-family:Righteous;
+}
+.con{
+  font-family:Righteous;
+}
+.con:hover{
+  color: red;
+}
+button:hover{
+  color: black;
+}
+.p1,.p2,.p3,.p4,.p5{
+
+  font-family:Righteous;
+
+  border: 2px solid grey;
+}
+.k1,.k2,.k3,.k4{
+  font-family: Righteous;
+  text-align: justify;
+}
+.logo{
+  height: 100px;
+  width: 150px;
+  margin-left: 50px;
+  margin-top: 20px;
+  opacity: 0.4;
+  border-radius: 50px;
+}
+button{
+  border-radius:30px;
+}
